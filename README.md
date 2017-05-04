@@ -27,7 +27,7 @@ gender classification
 
 - EigenfacesSpaces2.m 针对main2.m的一个特征空间计算算法
 
-人脸数据集已经被我放到网盘上了，整个程序是基于这个训练集完成的
+人脸数据集已经被我放到网盘上了，整个程序是基于这个训练集完成的，直接将压缩包解压到data文件夹就行
 
 - [传送门](http://pan.baidu.com/s/1nvRsWjf)
 
