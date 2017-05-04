@@ -5,9 +5,12 @@ gender classification
 
 做出来之后我发现自己的程序的性别识别率比较低，大概只有60%左右，目前还不清楚原因，姑且把性别识别的源代码贴出来。下面是我的程序结构：
 
-- main1.m 性别识别主程序，直接打开这个文件运行
-- FaceVectorDatabase.m 将训练集图像提取为一个矩阵
-- ResizeImage.m 将图像转换为灰度图像，并归一化为286*200分辨率的图像
+- main1.m 
+  性别识别主程序，直接打开这个文件运行
+- FaceVectorDatabase.m 
+  将训练集图像提取为一个矩阵
+- ResizeImage.m 
+  将图像转换为灰度图像，并归一化为286*200分辨率的图像
 - EigenfacesSpaces.m 生成训练集的平均脸mean_face,训练集与平均脸的差值矩阵A，以及训练集的特征脸空间Eigenfaces
 - Projection2Eigenfaces.m 将训练集投影到特征空间上
 -  TestProjection2Eigenfaces.m 将测试图像投影到特征空间上，并存储为一个矩阵
